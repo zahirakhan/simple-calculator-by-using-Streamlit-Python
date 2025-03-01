@@ -26,6 +26,7 @@ def calculate(operation, num1, num2):
 st.title("Simple Calculator")
 load_css()
 
+
 num1 = st.number_input("Enter first number", value=0.0, step=0.1)
 num2 = st.number_input("Enter second number", value=0.0, step=0.1)
 operation = st.selectbox("Choose an operation", ["Add (+)", "Subtract (-)", "Multiply (×)", "Divide (÷)", "Power (^)"])
